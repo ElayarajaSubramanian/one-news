@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <title>One News | International, National News</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logo.png" alt="" class="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end nav-pills nav-fill"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="national.html">National</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="business.html">Business</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sports.html">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="world.html">World</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="politics.html">Politics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="technology.html">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="startup.html">Startup</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="entertainment.html">Entertainment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="miscellaneous.html">Miscellaneous</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hatke.html">Hatke</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="science.html">Science</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="automobile.html">Automobile</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide carouselContainer"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="assets/images/carousel-1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Ukraine at war</h5>
+            <p>Russia is not going to stop it's attack on Ukraine.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/carousel-2.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Covid 19 in India</h5>
+            <p>
+              Covid 19 cases has been consistently reducing in India since last
+              month.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/carousel-3.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Academy Award 2022</h5>
+            <p>So many exciting incidents happened in Academy Award 2022.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container py-4">
+      <div class="row py-2">
+        <h1 class="fs-2 text-blue p-0">National News</h1>
+        <div
+          id="news-national"
+          class="row"
+          style="height: 33rem; overflow-y: hidden"
+        ></div>
+        <a
+          href="/national.html"
+          style="width: fit-content"
+          class="btn btn-danger mt-4"
+        >
+          Read More National News
+        </a>
+      </div>
+      <hr />
+      <div class="row py-2">
+        <h1 class="fs-2 text-blue p-0">Business News</h1>
+        <div
+          id="news-business"
+          class="row"
+          style="height: 33rem; overflow-y: hidden"
+        ></div>
+        <a
+          href="business.html"
+          style="width: fit-content"
+          class="btn btn-danger mt-4"
+        >
+          Read More Business News
+        </a>
+      </div>
+      <hr />
+      <div class="row py-2">
+        <h1 class="fs-2 text-blue p-0">Sports News</h1>
+        <div
+          id="news-sports"
+          class="row"
+          style="height: 33rem; overflow-y: hidden"
+        ></div>
+        <a
+          href="sports.html"
+          style="width: fit-content"
+          class="btn btn-danger mt-4"
+        >
+          Read More Sports News
+        </a>
+      </div>
+      <hr />
+      <div class="row py-2">
+        <h1 class="fs-2 text-blue p-0">World News</h1>
+        <div
+          id="news-world"
+          class="row"
+          style="height: 33rem; overflow-y: hidden"
+        ></div>
+        <a
+          href="world.html"
+          style="width: fit-content"
+          class="btn btn-danger mt-4"
+        >
+          Read More World News
+        </a>
+      </div>
+      <hr />
+      <div class="row py-2">
+        <h1 class="fs-2 text-blue p-0">Politics News</h1>
+        <div
+          id="news-politics"
+          class="row"
+          style="height: 33rem; overflow-y: hidden"
+        ></div>
+        <a
+          href="politics.html"
+          style="width: fit-content"
+          class="btn btn-danger mt-4"
+        >
+          Read More Politics News
+        </a>
+      </div>
+      <hr />
+      <div class="row py-2">
+        <h1 class="fs-2 text-blue p-0">Technology News</h1>
+        <div
+          id="news-technology"
+          class="row"
+          style="height: 33rem; overflow-y: hidden"
+        ></div>
+        <a
+          href="technology.html"
+          style="width: fit-content"
+          class="btn btn-danger mt-4"
+        >
+          Read More Technology News
+        </a>
+      </div>
+      <hr />
+      <div class="row py-2">
+        <h1 class="fs-2 text-blue p-0">Startup News</h1>
+        <div
+          id="news-startup"
+          class="row"
+          style="height: 33rem; overflow-y: hidden"
+        ></div>
+        <a
+          href="startup.html"
+          style="width: fit-content"
+          class="btn btn-danger mt-4"
+        >
+          Read More Startup News
+        </a>
+      </div>
+      <hr />
+      <div class="row py-2">
+        <h1 class="fs-2 text-blue p-0">Entertainment News</h1>
+        <div
+          id="news-entertainment"
+          class="row"
+          style="height: 33rem; overflow-y: hidden"
+        ></div>
+        <a
+          href="entertainment.html"
+          style="width: fit-content"
+          class="btn btn-danger mt-4"
+        >
+          Read More Entertainment News
+        </a>
+      </div>
+      <hr />
+      <div class="row py-2">
+        <h1 class="fs-2 text-blue p-0">Miscellaneous News</h1>
+        <div
+          id="news-miscellaneous"
+          class="row"
+          style="height: 33rem; overflow-y: hidden"
+        ></div>
+        <a
+          href="miscellaneous.html"
+          style="width: fit-content"
+          class="btn btn-danger mt-4"
+        >
+          Read More Miscellaneous News
+        </a>
+      </div>
+      <hr />
+      <div class="row py-2">
+        <h1 class="fs-2 text-blue p-0">Hatke News</h1>
+        <div
+          id="news-hatke"
+          class="row"
+          style="height: 33rem; overflow-y: hidden"
+        ></div>
+        <a
+          href="hatke.html"
+          style="width: fit-content"
+          class="btn btn-danger mt-4"
+        >
+          Read More Hatke News
+        </a>
+      </div>
+      <hr />
+      <div class="row py-2">
+        <h1 class="fs-2 text-blue p-0">Science News</h1>
+        <div
+          id="news-science"
+          class="row"
+          style="height: 33rem; overflow-y: hidden"
+        ></div>
+        <a
+          href="science.html"
+          style="width: fit-content"
+          class="btn btn-danger mt-4"
+        >
+          Read More Science News
+        </a>
+      </div>
+      <hr />
+      <div class="row py-2">
+        <h1 class="fs-2 text-blue p-0">Automobile News</h1>
+        <div
+          id="news-automobile"
+          class="row"
+          style="height: 33rem; overflow-y: hidden"
+        ></div>
+        <a
+          href="automobile.html"
+          style="width: fit-content"
+          class="btn btn-danger mt-4"
+        >
+          Read More Automobile News
+        </a>
+      </div>
+    </div>
+    <div class="container-fluid bg-dark text-light py-4">
+      <footer class="row">
+        <div class="col-lg-9">
+          <a href="national.html" class="footer-link">National</a>
+          <div class="vr mx-2"></div>
+          <a href="business.html" class="footer-link">Business</a>
+          <div class="vr mx-2"></div>
+          <a href="sports.html" class="footer-link">Sports</a>
+          <div class="vr mx-2"></div>
+          <a href="world.html" class="footer-link">World</a>
+          <div class="vr mx-2"></div>
+          <a href="entertainment.html" class="footer-link">Entertainment</a>
+          <div class="vr mx-2"></div>
+          <a href="politics.html" class="footer-link">Politics</a>
+          <div class="vr mx-2"></div>
+          <a href="science.html" class="footer-link">Science</a>
+          <div class="vr mx-2"></div>
+          <a href="technology.html" class="footer-link">Technology</a>
+          <div class="vr mx-2"></div>
+          <a href="startup.html" class="footer-link">Startup</a>
+          <div class="vr mx-2"></div>
+          <a href="hatke.html" class="footer-link">Hatke</a>
+          <div class="vr mx-2"></div>
+          <a href="miscellaneous.html" class="footer-link">Miscellaneous</a>
+          <div class="vr mx-2"></div>
+          <a href="automobile.html" class="footer-link">Automobile</a>
+        </div>
+        <div class="col-lg-3 text-end">Copyright &copy; 2022</div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

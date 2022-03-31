@@ -1,0 +1,54 @@
+:root {
+  --white: #fff;
+  --blue: #002896;
+  --red: #e72327;
+  --black: #3a3845;
+}
+
+.logo {
+  width: 130px;
+}
+
+.active {
+  color: var(--white) !important;
+  background-color: var(--blue) !important;
+}
+
+.active:hover {
+  color: var(--white) !important;
+}
+
+.nav-link {
+  color: var(--black);
+}
+
+.nav-link:hover {
+  color: var(--blue);
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.para-ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.readmore-link {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.footer-link {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: rgba(249, 249, 249, 0.6);
+}
+/*# sourceMappingURL=custom.css.map */
